@@ -1,0 +1,46 @@
+{
+  "address": "gps.app.online",
+  "host": "gps.app.online",
+  "ufwEnable": true,
+  "firewallIdEnable": false,
+  "server": {
+    "timeout": 86400000,
+    "maxConnections": 10000,
+    "controlPort": 3300
+  },
+  "socket": {
+    "address": "",
+    "timeout": 1800000
+  },
+  "db": {
+    "host": "127.0.0.1",
+    "type": "mysql",
+    "dbname": "",
+    "dbsourcename": "",
+    "user": "",
+    "password": "",
+    "poolMin": 0,
+    "poolMax": 5,
+    "poolAcquire": 1000000,
+    "poolIdle": 10000,
+    "realtime": {
+      "host": "127.0.0.1",
+      "user": "",
+      "password": "",
+      "charset": "utf8_general_ci",
+      "dateStrings": true,
+      "serverId": 1
+    }
+  },
+  "smtp": {
+    "mailingEnabled" : true,
+    "host": "smtp.srv.cz",
+    "port": 25,
+    "secure": false,
+    "auth": {
+      "user": "",
+      "pass": ""
+    },
+    "rejectUnauthorized": false
+  }
+}
